@@ -1,7 +1,7 @@
 # Almaz Lang
 Best programming language ever created
 
-Since it is difficult to learn a new language just to write super cool programs, we came up with a solution - Almaz 💎
+> Since it is difficult to learn a new language just to write super cool programs, we came up with a solution - Almaz 💎
 
 ### Variables
 ```
