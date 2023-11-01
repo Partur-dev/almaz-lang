@@ -98,6 +98,9 @@ declare variable
   with value
     new gosha
 
-call function meow inside of newCat
-call function meow inside of kakodav
+call function meow
+  inside of newCat
+
+call function meow
+  inside of kakodav
 ```
