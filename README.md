@@ -59,6 +59,14 @@ nekita thinks (probably)
 nekita said this code probably causes memory leaks
 nekita said (probably)
 ```
+### Boolean values
+```
+true, false
+yes, no
+
+yes == true
+no == false
+```
 ### Array values
 ```
 declare variable
@@ -70,6 +78,33 @@ declare function
   named getArray
     return array
       1, 2, 5, "bubilda", true
+```
+### If statements
+```
+declare variable
+  named name
+  with value "maksim"
+
+if name is "nikita"
+  call function print
+    with args "nikita idi nahui"
+else
+  if name is "maksim"
+    call function print
+      with args "maksim ti furry boykisser"
+  else
+    if name is "bogdan"
+      call function print
+        with args "patur di nahui"
+    else
+      call function print
+        with args "undefined (js reference)"
+```
+### The only loop
+```
+while yes
+  call function print
+    with args "endless loop"
 ```
 ### Classes
 ```
