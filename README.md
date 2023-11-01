@@ -64,8 +64,8 @@ nekita said (probably)
 true, false
 yes, no
 
-yes == true
-no == false
+yes is true
+no is false
 ```
 ### Array values
 ```
@@ -124,7 +124,7 @@ declare class
           with args "AOAOAAAAAAAAAAAAAAAAAAAAAAAAAIIIIIIIIIIIIIOOOOOOOOO"
 
 declare variable
-  named newCat
+  named new cat
   with value
     new cat
 
@@ -134,8 +134,35 @@ declare variable
     new gosha
 
 call function meow
-  inside of newCat
+  inside of new cat
 
 call function meow
   inside of kakodav
 ```
+### Structs
+```
+declare struct
+  named vector 2
+    declare variable
+      named x
+    declare variable
+      named y
+
+declare variable
+  named player position
+  with value
+    new vector 2
+
+assign x
+  inside of player position
+    to the 10
+
+assign y
+  inside of player position
+    to the yes
+
+call function print
+  with args x
+    inside of player position,
+  y
+    inside of player position
