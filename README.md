@@ -71,3 +71,33 @@ declare function
     return array
       1, 2, 5, "bubilda", true
 ```
+### Classes
+```
+declare class
+  named cat
+    declare function
+      named meow
+        call function print
+          with args "meow!!!"
+
+declare class
+  named gosha
+  extends cat
+    declare function
+      named meow
+        call function print
+          with args "AOAOAAAAAAAAAAAAAAAAAAAAAAAAAIIIIIIIIIIIIIOOOOOOOOO"
+
+declare variable
+  named newCat
+  with value
+    new cat
+
+declare variable
+  named kakodav
+  with value
+    new gosha
+
+call function meow inside of newCat
+call function meow inside of kakodav
+```
