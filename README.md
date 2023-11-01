@@ -31,3 +31,43 @@ put result of
 call function print
   with args res
 ```
+
+### Comments
+comment
+```
+comment
+  this code probably causes memory leaks
+  (probably)
+```
+"..."
+```
+"this code probably causes memory leaks"
+"(probably)"
+```
+i think ...
+```
+i think this code probably causes memory leaks
+i think (probably)
+```
+... thinks ...
+```
+nekita thinks this code probably causes memory leaks
+nekita thinks (probably)
+```
+... said ...
+```
+nekita said this code probably causes memory leaks
+nekita said (probably)
+```
+### Array values
+```
+declare variable
+  named array
+  with value array
+    1, 2, 5, "bubilda", true
+
+declare function
+  named getArray
+    return array
+      1, 2, 5, "bubilda", true
+```
